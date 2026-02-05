@@ -267,7 +267,7 @@ footer a:hover {
   }
 
   #projeto-container .foto {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     max-width: 20%;
     max-height: 200px
   }
