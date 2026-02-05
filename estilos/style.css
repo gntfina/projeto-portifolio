@@ -21,6 +21,16 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color .5s, color .5s;
+}
+
+body.escuro {
+  --fundo-principal: #222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333;
+  --destaque: #f52;
+  --destaque-inverso: #a73917; 
+  --fundo-card: #444;
 }
 
 header {
